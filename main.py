@@ -3,7 +3,7 @@ import unittest
 
 subprocess.run(['make', 'libcookie_lib.so', '-C', 'cookie-lib'])
 
-from loader import *
+from string_module_loader import *
 
 class StringTest(unittest.TestCase):
     def test_put_char(self):
